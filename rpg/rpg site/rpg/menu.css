@@ -1,0 +1,102 @@
+#fundo{
+    background-image: url('main.jpeg');
+    background-size: cover; /* Ajusta a imagem de fundo para cobrir toda a área do body */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    background-attachment: fixed; /* Fixa a imagem de fundo ao viewport */
+    width: 97%; /* Define a largura do body */
+    height: 100vh; /* Define a altura do body para ocupar toda a altura da viewport */
+    margin:  0; 
+    padding: 0; 
+    background-image: linear-gradient(to bottom, rgba(16, 17, 17, 0) 30%, rgba(8, 8, 8, 0.938) 100%), url('main.jpeg');
+}
+nav {
+    width: 1335px;
+    height: 30%;
+    background-size: cover; /* Ajusta a imagem de fundo para cobrir toda a área do nav */
+    padding: 10px; /* Adiciona padding ao nav */
+    background: radial-gradient(circle, rgba(102, 1, 68, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%); /* Gradiente radial do centro claro para as bordas escuras */
+    box-shadow: 0 0 10px rgba(176, 76, 235, 0.5); /* Adiciona uma sombra ao main */
+    box-shadow: 0 0 10px rgba(176, 76, 235, 0.5); /* Adiciona uma sombra ao main */
+    border: 5px groove #bc12ff; /* Borda groove com cor */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    
+}
+#principal{
+    width: 80%; /* Define a largura do main */
+    height: 110vh; /* Define a altura do main */
+    padding: 20px; /* Adiciona um padding ao main */
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Centraliza o texto dentro do main */
+    border-radius: 10px; /* Adiciona bordas arredondadas ao main */
+    margin-top: 110px;
+    margin-bottom: 35px;
+    margin-left: 100px;
+    margin-right: 150px;
+    background: radial-gradient(circle, rgba(102, 1, 68, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%); /* Gradiente radial do centro claro para as bordas escuras */
+    box-shadow: 0 0 10px rgba(176, 76, 235, 0.5); /* Adiciona uma sombra ao main */
+    border: 5px groove #bc12ff; /* Borda groove com cor */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    align-items: flex-start; /* Alinha o conteúdo à esquerda */
+    text-align: left; /* Alinha o texto à esquerda */
+    overflow-y: auto; /* Adiciona rolagem vertical se o conteúdo for maior que a altura */
+    font-size: 150%;
+    color: rgb(85, 216, 233);
+}
+#icone{
+    margin-right: 10px; /* Adiciona espaço entre a imagem e o texto */
+    vertical-align: middle; /* Alinha verticalmente a imagem com o texto */
+}
+nav h1 {
+    color: rgb(216, 219, 44); /* Define a cor do texto */
+    font-size: 2.8em; /* Define o tamanho do texto */
+    margin: 0; /* Remove margens padrão */
+    position: relative;
+    top: -45px; /* Move o título 10px para cima */
+
+
+}
+#icone2{
+    margin-right: 30px; /* Adiciona espaço entre a imagem e o texto */
+    vertical-align: middle; /* Alinha verticalmente a imagem com o texto */
+
+}
+
+/* Estilos para a lista de navegação */
+.nav-links {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove padding padrão */
+    margin: 0; /* Remove margens padrão */
+    align-items: flex-start; /* Alinha os itens da lista à esquerda */
+    display: flex;
+    align-items: center; /* Alinha o texto e a imagem na mesma linha */
+    margin-bottom: 15px; /* Espaçamento entre os tópicos */
+    margin: 0; /* Remove margens padrão */
+    position: relative;
+    top: -95px; /* Move o título 10px para cima */
+}
+
+
+/* Estilos para os itens da lista */
+.nav-links li {
+    margin: 25px; /* Adiciona espaço vertical entre os itens da lista */
+
+}
+
+/* Estilos para os links de navegação */
+.nav-links li a {
+    color: rgb(225, 238, 39); /* Define a cor do texto */
+
+    font-size: 1.7em; /* Define o tamanho do texto */
+}
+
+#conceito{
+
+font-size: 1.6em;
+
+}
+
+
+
