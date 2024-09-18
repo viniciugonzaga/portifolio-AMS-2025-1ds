@@ -1,0 +1,1056 @@
+.navbar {
+    background-color: rgb(248, 244, 244);
+    display: flex;
+    justify-content: space-around;
+    border-radius: 0.5vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.9vh;
+    padding: 0vh;
+    margin: 0vh;
+    gap: 2rem;
+    height: 15vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+   
+}
+
+.nav-link{
+        color: black;
+        text-decoration: none;
+        padding: 5vh 2vw;
+        transition: background-color 0.3s ease;
+        margin-top: 0.04vh;
+    }
+
+.nav-link2{
+    color: rgb(13, 56, 196);
+    text-decoration: none;
+    padding: 5vh 2vw;
+    transition: background-color 0.3s ease;
+    
+
+    
+}
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        font-size: 2vh;
+        height: auto;
+    }
+}
+.nav-link3{
+
+    color: rgb(223, 18, 18);
+    text-decoration: none;
+    padding: 5vh 2vw;
+    transition: background-color 0.3s ease;
+}
+.nav-link4{
+
+    color: rgb(23, 231, 47);
+    text-decoration: none;
+    padding: 5vh 2vw;
+    transition: background-color 0.3s ease;
+
+}
+.nav-link5 {
+    color: rgb(123, 17, 244);
+    text-decoration: none;
+    padding: 5vh 2vw;
+    transition: background-color 0.3s ease;   
+}
+
+.nav-link:hover {
+    background-color: rgb(163, 157, 157);
+    color: #e5dddd;
+    border-radius: 6vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.nav-link2:hover {
+    background-color: rgb(12, 25, 197);
+    color: #e5dddd;
+    border-radius: 6vh;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    
+
+}
+
+.nav-link3:hover {
+    background-color: rgb(205, 16, 16);
+    color: #e5dddd;
+    border-radius: 6vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.nav-link4:hover {
+    background-color: rgb(24, 213, 11);
+    color: #e5dddd;
+    border-radius: 6vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    
+}
+
+.nav-link5:hover {
+    background-color: rgb(132, 61, 199);
+    color: #e5dddd;
+    border-radius: 6vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+   
+}
+
+.dropbtn {
+    padding: 4.4vh;
+    margin-top: 0.5vh;
+    height: 4vh;
+    color: rgb(99, 97, 97);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dropdown-content {
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    z-index: 1;
+    display: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: gray;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(244, 238, 238);
+}
+
+.img1 {
+    height: 13.5vh;
+    width: 13.5vh; 
+    padding: 1vh;
+    margin: 0;
+}
+.login {
+    height: 11vh;
+    width: 11vh;
+    padding: 1vh;
+    margin-top: 1vh;
+}
+
+.ajuste-nav-bar{
+
+    height: 15vh;
+    width: 100%;
+background-color:rgb(248, 244, 244);
+}
+
+/* Estilo do Carrossel */
+body {
+    background: linear-gradient(180deg, #9EE0FF 34%, #FFED9E 47%, #FF9EB0 81%, #7CE86C 90.50%);
+    margin-left: 0;
+    margin-right: 0;
+  
+}
+
+
+section.slider {
+    width: 100%;
+    height: 97vh; /* Ajuste a altura conforme necessário */
+    padding: 0 !important;
+    overflow: hidden;
+    position: relative;
+    background: #fff; /* Fundo branco para o carrossel */
+    
+}
+
+.slider-content {
+    width: 400%;
+    height: 100%;
+    display: flex;
+}
+
+.slider-content input {
+    display: none;
+}
+
+.slide-box {
+    width: 25%;
+    height: 100%;
+    position: relative;
+    transition: 1s;
+}
+
+.slide-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide-text {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translateX(-25%);
+    color: white;
+    font-size: 6vh;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    z-index: 10;
+    font-family: "Poppins", sans-serif;
+}
+
+.nav-manual,
+.nav-auto {
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-manual .manual-btn,
+.nav-auto div {
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.nav-manual .manual-btn:not(:last-child),
+.nav-auto div:not(:last-child) {
+    margin-right: 10px;
+}
+
+.nav-manual .manual-btn:hover {
+    background-color: #ff0054;
+}
+
+#imagem1:checked ~ .nav-auto .auto-btn1,
+#imagem2:checked ~ .nav-auto .auto-btn2,
+#imagem3:checked ~ .nav-auto .auto-btn3 {
+    background-color: whitesmoke;
+}
+
+#imagem1:checked ~ .slide-box:first-of-type {
+    margin-left: 0%;
+}
+
+#imagem2:checked ~ .slide-box:first-of-type {
+    margin-left: -25%;
+}
+
+#imagem3:checked ~ .slide-box:first-of-type {
+    margin-left: -50%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/* Estilo do título h1 */
+h1 {
+    font-family: "Fredoka", sans-serif; /* Define a fonte do título */
+    font-size: 10vh; /* Define o tamanho da fonte como uma porcentagem da altura da viewport */
+    color: blue; /* Define a cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 0; /* Remove o padding */
+    margin: 0; /* Remove a margem */
+  }
+  
+  /* Estilo da imagem .sol */
+  .sol {
+    width: 40vh; /* Define a largura da imagem */
+    height: 34vh; /* Define a altura da imagem */
+    float: right; /* Alinha a imagem à direita */
+    margin-top: 0; /* Remove a margem superior */
+    padding: 0; /* Remove o padding */
+  }
+  
+  /* Estilo do contêiner .nuvens */
+  .nuvens {
+    display: flex; /* Usa flexbox para alinhar os itens */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Alinha os itens verticalmente */
+    width: 100%; /* Garante que o contêiner ocupe toda a largura disponível */
+    margin-top: 20px; /* Adiciona uma margem superior */
+    position: relative; /* Permite o uso de position:absolute para a nuvem direita */
+  }
+  
+  /* Estilo das imagens dentro do contêiner .nuvens */
+  .nuvens img {
+    width: 37vh; /* Define a largura das imagens */
+    height: 32vh; /* Define a altura das imagens */
+  }
+  
+  /* Estilo específico para a nuvem à esquerda */
+  .nuvem-left {
+    margin-right: auto; /* Empurra a nuvem para a esquerda */
+  }
+  
+  /* Estilo específico para a nuvem à direita */
+  .nuvem-right {
+    margin-left: auto; /* Empurra a nuvem para a direita */
+  }
+  
+  /* Estilos responsivos */
+  @media (max-width: 1200px) {
+    h1 {
+      font-size: 8vh; /* Ajusta o tamanho da fonte para telas menores */
+    }
+  
+    .sol {
+      width: 35vh; /* Ajusta a largura da imagem sol para telas menores */
+      height: 30vh; /* Ajusta a altura da imagem sol */
+    }
+  
+    .nuvens img {
+      width: 30vh; /* Ajusta a largura das imagens das nuvens */
+      height: 25vh; /* Ajusta a altura das imagens das nuvens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 6vh; /* Ajusta o tamanho da fonte para telas menores */
+    }
+  
+    .sol {
+      width: 30vh; /* Ajusta a largura da imagem sol */
+      height: 25vh; /* Ajusta a altura da imagem sol */
+    }
+  
+    .nuvens img {
+      width: 25vh; /* Ajusta a largura das imagens das nuvens */
+      height: 20vh; /* Ajusta a altura das imagens das nuvens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 5vh; /* Ajusta o tamanho da fonte para telas pequenas */
+    }
+  
+    .sol {
+      width: 25vh; /* Ajusta a largura da imagem sol */
+      height: 20vh; /* Ajusta a altura da imagem sol */
+    }
+  
+    .nuvens img {
+      width: 20vh; /* Ajusta a largura das imagens das nuvens */
+      height: 15vh; /* Ajusta a altura das imagens das nuvens */
+    }
+  
+    .nuvens {
+      flex-direction: column; /* Empilha as imagens das nuvens verticalmente em telas pequenas */
+    }
+  }
+
+
+p{
+    text-align:center;
+    color: rgb(254, 254, 254);
+    padding: 0;
+    font-size: 5.2vh;
+    word-break: break-word;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+    
+}
+
+.modal {
+  display: none; /* Esconde o modal por padrão */
+  position: fixed; /* Fica fixo na tela */
+  z-index: 1000; /* Fica acima de outros conteúdos */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+}
+
+.pmodal{
+    text-align:center;
+    color: rgb(12, 4, 4);
+    padding: 0;
+    font-size: 4vh;
+    word-break: break-word;
+    padding-right: 15vh;
+    padding-left: 17vh;
+    margin-left: 13vh;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Estilo do contêiner .wrapper */
+.wrapper {
+    display: flex; /* Alinha os itens horizontalmente */
+    flex-wrap: wrap; /* Permite que os itens se movam para a linha seguinte se não houver espaço suficiente */
+    align-items: flex-start; /* Alinha os itens ao topo do contêiner */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    gap: 12vh; /* Adiciona um espaço entre a imagem e o texto */
+    margin-top: 8vh;
+  }
+  
+  /* Estilo do contêiner .container (imagem) */
+  .container {
+    max-width: 100%; /* Garante que a imagem não exceda o tamanho do contêiner pai */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 50%; /* Faz com que a imagem tenha formato circular */
+    flex: 1; /* Faz com que a imagem ocupe espaço disponível */
+    max-width: 50vh; /* Define uma largura máxima para a imagem */
+    
+  }
+  
+  /* Estilo do contêiner .container2 (texto) */
+  .container2 {
+    flex: 2; /* Faz com que o texto ocupe o dobro do espaço em relação à imagem */
+    max-width: 100vh; /* Define uma largura máxima para o texto */
+  }
+  
+  .container2 p {
+    color: black;
+    font-size: 2vw; /* Usa unidades de largura da viewport para tornar a fonte responsiva */
+    line-height: 1.5; /* Melhora a legibilidade */
+    transition: color 0.3s; /* Adiciona uma transição suave para a cor */
+    text-align: left;
+  }
+  
+  /* Efeito de hover na imagem */
+  .container:hover {
+    transform: scale(1.05); /* Leve aumento de escala ao passar o mouse */
+  }
+  
+  /* Estilos responsivos */
+  @media (max-width: 1200px) {
+    .container {
+      max-width: 250px;
+    }
+  
+    .container2 p {
+      font-size: 2.5vw; /* Ajusta o tamanho da fonte */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      max-width: 200px;
+    }
+  
+    .container2 p {
+      font-size: 2vw; /* Ajusta o tamanho da fonte */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      max-width: 150px;
+    }
+  
+    .container2 p {
+      font-size: 1.5vw; /* Ajusta o tamanho da fonte */
+    }
+  
+    .wrapper {
+      flex-direction: column; /* Empilha a imagem e o texto verticalmente em telas pequenas */
+      align-items: center; /* Centraliza os itens horizontalmente */
+    }
+  }
+
+
+
+h3{
+    text-align: center;
+    font-size: 6vh;
+    color: #fd8a07;
+    justify-content: center;
+    padding-right: 15vh;
+    margin-top: 6vh;
+    font-family:"Fredoka","sans-serif";
+}
+
+.h3{
+    font-family:"Fredoka","sans-serif";
+    color: #f7f2f3;
+}
+
+.matricula, .alimentacao{
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+}
+
+
+.matricula img{
+    border: 1.3vh rgb(238, 237, 244) dotted;
+    background-color: rgb(186, 148, 239);
+    border-radius: 2vh;
+    width: 52vh;
+    height: 52vh;       
+    padding: 7vh 7vh 7vh 7vh;
+}
+
+
+
+/* Estilo para a classe img5 */
+.img5 {
+    width: 100%;
+    max-width: 110vh; /* Define a largura máxima da imagem */
+    height: auto; /* Ajusta a altura automaticamente para manter a proporção */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    display: block; /* Garante que a imagem seja tratada como um bloco */
+    padding: 0;
+    position: relative; /* Necessário para posicionamento relativo de elementos filhos */
+    text-align: center; /* Alinha o texto centralizado (se houver) */
+  }
+  
+  /* Estilos responsivos para telas menores */
+  @media (max-width: 1200px) {
+    .img5 {
+      max-width: 90vh; /* Ajusta a largura máxima em telas menores */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .img5 {
+      max-width: 80vh; /* Ajusta a largura máxima em telas menores */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .img5 {
+      max-width: 70vh; /* Ajusta a largura máxima em telas muito pequenas */
+    }
+  }
+  
+
+
+
+
+.rounded-container {
+    width: 37vh; /* Largura do contêiner */
+    height: 37vh; /* Altura do contêiner */
+    background-color: #f5081f;
+    background-size: cover; /* Ajusta a imagem para cobrir todo o contêiner */
+    background-position: center; /* Centraliza a imagem */
+    border-radius: 50%; /* Torna o contêiner arredondado */
+    position: relative; /* Necessário para posicionar o texto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Garante que nada saia do contêiner arredondado */
+  }
+  
+  .content, .content1, .content2, .content3, .content4 {
+    color: white; /* Cor do texto */
+    font-size: 24px; /* Tamanho do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    z-index: 1; /* Garante que o texto fique sobre a imagem */
+    font-family: "Poppins", sans-serif;
+
+  }
+  
+  .rounded-container::before, .rounded-container1::before, .rounded-container2::before, .rounded-container3::before, .rounded-container4::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(146, 143, 143, 0.4); /* Adiciona uma camada escura sobre a imagem */
+    border-radius: inherit; /* Mantém o border-radius */
+    z-index: 0; /* Coloca a camada escura atrás do texto */
+  }
+
+
+  .rounded-container1{
+    width: 37vh; /* Largura do contêiner */
+    height: 37vh; /* Altura do contêiner */
+    background-color: #ffd900; /* Substitua pela URL da sua imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o contêiner */
+    background-position: center; /* Centraliza a imagem */
+    border-radius: 50%; /* Torna o contêiner arredondado */
+    position: relative; /* Necessário para posicionar o texto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Garante que nada saia do contêiner arredondado */
+  }
+  
+
+  .rounded-container2{
+    width: 37vh; /* Largura do contêiner */
+    height: 37vh; /* Altura do contêiner */
+    background-color: #33ff00; /* Substitua pela URL da sua imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o contêiner */
+    background-position: center; /* Centraliza a imagem */
+    border-radius: 50%; /* Torna o contêiner arredondado */
+    position: relative; /* Necessário para posicionar o texto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Garante que nada saia do contêiner arredondado */
+  }
+
+  .rounded-container3{
+    width: 37vh; /* Largura do contêiner */
+    height: 37vh; /* Altura do contêiner */
+    background-color: #0022ff; /* Substitua pela URL da sua imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o contêiner */
+    background-position: center; /* Centraliza a imagem */
+    border-radius: 50%; /* Torna o contêiner arredondado */
+    position: relative; /* Necessário para posicionar o texto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Garante que nada saia do contêiner arredondado */
+  }
+
+  .rounded-container4{
+    width: 37vh; /* Largura do contêiner */
+    height: 37vh; /* Altura do contêiner */
+    background-color: #860ee7; /* Substitua pela URL da sua imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o contêiner */
+    background-position: center; /* Centraliza a imagem */
+    border-radius: 50%; /* Torna o contêiner arredondado */
+    position: relative; /* Necessário para posicionar o texto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Garante que nada saia do contêiner arredondado */
+  }
+
+
+
+/* Estilo do modal */
+.modal, .modal2, .modal3, .modal4, .modal5 {
+    display: none; /* Escondido por padrão */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo escurecido */
+}
+
+.modal-content, .modal-content2, .modal-content3, .modal-content4, .modal-content5 {
+    margin: 6% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%; /* Largura do modal */
+    height: 70vh;
+    text-align: center;
+    border-radius: 10px;
+    overflow-y: auto;   
+    background-color: #FF9EB0;
+}
+
+.fechar, .fechar2, .fechar3, .fechar4, .fechar5 {
+    color: red;
+    font-size: 10vh;
+    font-weight: bold;
+    margin-left: 110vh;
+    position: relative;
+}
+
+.fechar:hover,
+.fechar:focus, .fechar2:hover,
+.fechar2:focus, .fechar3:hover,
+.fechar3:focus, .fechar4:hover,
+.fechar4:focus, .fechar5:hover,
+.fechar5:focus {
+    color: black;
+    cursor: pointer;
+}
+
+
+
+.modal-content p, h3,
+.modal-content2 p, h3,
+.modal-content3 p, h3,
+.modal-content4 p, h3,
+.modal-content5 p, h3
+{
+    text-align: center;
+   justify-content: center;
+   margin-left: 12vh;
+   padding-left: 5vh;
+}
+
+.modaloi{
+font-size: 7vh;
+font-family:"Fredoka","sans-serif";
+padding: 0;
+margin: 0;
+text-align: center;
+justify-content: center;
+color: #000000;
+margin-bottom: 3vw;
+}
+
+.modal-content img, .modal-content2, .modal-content3, .modal-content4, .modal-content5{
+    position: relative;
+    height: 47vh;
+    width: 67vh;
+    text-align: center;
+    justify-content: center;
+    
+    
+}
+
+.modal p{
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.content1 h2, .content h2{
+    text-align: center;
+    justify-content: center;
+    font-size: 4vh;
+    font-family: Poppins, Arial;
+}
+
+.h1{
+    
+    font-family:"Fredoka","sans-serif";
+    font-size: 9.5vh;
+    color: rgb(166, 0, 255);
+    text-align: center;   
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 4vh;
+    margin-top: 22vh;
+}
+
+.h11{
+    font-family:"Fredoka","sans-serif";
+    font-size: 9vh;
+    color: rgb(255, 42, 0);
+    text-align: center;   
+    justify-content: center;
+    padding: 0;
+    margin-top: 14vh;
+    margin-bottom: 7vh;
+}
+
+.h2{
+    text-align: center;
+    justify-content: center;
+    font-family:"Fredoka","sans-serif";
+    font-size: 4.5vh;
+    margin: 0;
+    color: rgb(209, 105, 31);
+    padding: 0;
+
+}
+
+
+.footer {
+   
+    color: white;
+    text-align: center;
+    padding: 2vh;
+    font-family: 'Poppins', sans-serif;
+ }
+ 
+ .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ }
+ 
+ .footer-column {
+    flex: 1;
+    padding: 1vh;
+ }
+ 
+ .footer-column h3 {
+    font-size: 3vh;
+    margin-bottom: 1vh;
+ }
+ 
+ .footer-column ul {
+    list-style: none;
+    padding: 0;
+ }
+ 
+ .footer-column ul li {
+    margin-bottom: 0.5vh;
+ }
+ 
+ .footer-column a {
+    color: #ffffff;
+    text-decoration: none;
+ }
+ 
+ .footer-column a:hover {
+    text-decoration: underline;
+ }
+ 
+ .social-icons ul {
+    list-style: none;
+    padding: 0;
+ }
+ 
+ .social-icons li {
+    display: inline;
+    margin-right: 1vw;
+ }
+ 
+ .social-icons img {
+    vertical-align: middle;
+ }
+ 
+ .footer-bottom {
+    margin-top: 2vh;
+    font-size: 1.6vh;
+ }
+
+
+ .containerb {
+    border: none;
+ }
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .b0 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Estilo da seção b1 */
+  .b1 {
+    height: 91vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo do título h1 dentro de b1 */
+  h1.b11 {
+    padding-top: 25vh;
+  }
+  
+  /* Estilo dos parágrafos p dentro de b1 */
+  p.b12 {
+    font-family: "Poppins", sans-serif;
+    text-align: right;
+    margin-top: 5vh;
+    width: 40vw;
+  }
+  
+  /* Estilo para contêiner de texto e imagem */
+  .textoeimg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    row-gap: 30vw;
+    gap: 4vw;
+  }
+  
+  /* Estilo da seção b2 */
+  .b2 {
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo do retângulo dentro de b2 */
+  #retangulo1 {
+    width: 60%;
+    max-width: 43.92386530014641vw;
+    height: 30vh;
+    padding: 7.727975270479135vh;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4.636785162287481vh auto;
+    text-align: center;
+  }
+  
+  /* Estilo dos títulos dentro de retângulo */
+  .b21 {
+    color: #FF002F;
+    padding-top: 15vh;
+  }
+  
+  /* Estilo dos parágrafos dentro de retângulo */
+  .b22 {
+    line-height: 1.6;
+    color: rgb(17, 16, 16);
+  }
+  
+  /* Estilo da seção b3 */
+  .b3 {
+    padding: 40px 0;
+  }
+  
+  /* Estilo do título h1 dentro de b3 */
+  .b31 {
+    color: #9000ff;
+  }
+  
+  /* Estilo para o contêiner de atividades */
+  .ativs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  /* Estilo dos contêineres de atividade */
+  .es, .bl, .lh {
+    width: calc(33% - 40px);
+    max-width: 350px;
+    height: 60vh;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    color: rgb(244, 235, 235);
+    border: 1.1vh white dashed;
+    background-color: #FDEC50;
+  }
+  
+  /* Estilo para o texto dentro dos contêineres de atividade */
+  .b30 {
+    align-items: center;
+    justify-content: center;
+    color: #2f46ba;
+    font-family: "Poppins", sans-serif;
+    margin-top: 3vh;
+    font-size: 4vh;
+  }
+  
+  /* Estilo das imagens dentro dos contêineres de atividade */
+  .esimg, .blimg, .lhimg {
+    width: 100%;
+    max-width: 70vh;
+    height: 40vh;
+    object-fit: cover;
+    margin-bottom: 4vh;
+  }
+  
+  /* Estilo dos textos dentro dos links */
+  .b32, .b33, .b34 {
+    font-size: 3.5vh;
+    line-height: 1.4;
+    color: #070606;
+  }
+
+
+  
+  /* Estilo dos links */
+  a {
+    text-decoration: none;
+  }
+  
+  /* Estilo dos botões dentro dos contêineres de atividade */
+  .a1 {
+    border-radius: 1vh;
+    padding: 1vh; 
+  }
+  
+  /* Estilo dos botões ao passar o mouse sobre eles */
+  .a1:hover {
+    background-color: #f5fd0e;
+  }
+  
+  /* Estilos responsivos */
+  @media (max-width: 1200px) {
+    .b1 {
+      height: auto; /* Ajusta a altura da seção b1 para telas menores */
+    }
+  
+    .es, .bl, .lh {
+      width: calc(50% - 20px); /* Ajusta a largura dos contêineres de atividade */
+      height: auto; /* Ajusta a altura dos contêineres de atividade */
+    }
+  
+    .esimg, .blimg, .lhimg {
+      max-width: 50vh; /* Ajusta a largura máxima das imagens */
+      height: auto; /* Ajusta a altura das imagens */
+    }
+  
+    .b32, .b33, .b34 {
+      font-size: 3vh; /* Ajusta o tamanho da fonte dos textos */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .b1 {
+      height: auto; /* Ajusta a altura da seção b1 para telas menores */
+    }
+  
+    .es, .bl, .lh {
+      width: calc(100% - 20px); /* Ajusta a largura dos contêineres de atividade */
+      height: auto; /* Ajusta a altura dos contêineres de atividade */
+    }
+  
+    .esimg, .blimg, .lhimg {
+      max-width: 40vh; /* Ajusta a largura máxima das imagens */
+      height: auto; /* Ajusta a altura das imagens */
+    }
+  
+    .b32, .b33, .b34 {
+      font-size: 2.5vh; /* Ajusta o tamanho da fonte dos textos */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .b1 {
+      height: auto; /* Ajusta a altura da seção b1 para telas menores */
+    }
+  
+    .es, .bl, .lh {
+      width: calc(100% - 20px); /* Ajusta a largura dos contêineres de atividade */
+      height: auto; /* Ajusta a altura dos contêineres de atividade */
+    }
+  
+    .esimg, .blimg, .lhimg {
+      max-width: 30vh; /* Ajusta a largura máxima das imagens */
+      height: auto; /* Ajusta a altura das imagens */
+    }
+  
+    .b32, .b33, .b34 {
+      font-size: 2vh; /* Ajusta o tamanho da fonte dos textos */
+    }
+  }

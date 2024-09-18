@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #e0c8f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250vh;
+  }
+  
+  .container1 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 160vh;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #6b3fa0;
+    font-weight: bold;
+    margin-bottom: 5vh;
+    text-decoration: underline;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 2.5vh;
+    font-weight: bold;
+  }
+  
+  input[type="text"], input[type="date"] {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 5vh;
+    background: linear-gradient(90deg, #a652f9, #ee68f6);
+    color: white;
+    font-size: 16px;
+  }
+  
+  .sexo-options {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5vh;
+  }
+  
+  .sexo-options label {
+    margin-right: 20px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px;
+    width: 15%;
+  }
+  
+  button {
+    background: linear-gradient(90deg, #a652f9, #ee68f6);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 5vh;
+    width: 100%;
+
+  }
+  
+  button:hover {
+    background: linear-gradient(90deg, #ee68f6, #a652f9);
+  }
+
+  /* Estilização geral */
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.container2 {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+/* Estilo do botão de upload */
+.image-label {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Esconde o input padrão */
+#image-upload {
+  display: none;
+}
+
+/* Estilo da área de pré-visualização da imagem */
+.image-preview {
+  margin-top: 20px;
+}
+
+
+.image-label1, .image-label2, .image-label3, .image-label4, .image-label5, .image-label6, .image-label7, .image-label8 {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#preview-img1, #preview-img2, #preview-img3, #preview-img4, #preview-img5, #preview-img6, #preview-img7, #preview-img8 {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  padding: 5px;
+  display: none;
+}
+
+/* Esconde o input padrão */
+#image-upload1, #image-upload2, #image-upload3, #image-upload4, #image-upload5, #image-upload6, #image-upload7, #image-upload8 {
+  display: none;
+}
+
+/* Estilo da área de pré-visualização da imagem */
+.image-preview1, .image-preview2, .image-preview3, .image-preview4, .image-preview5, .image-preview6, .image-preview7, .image-preview8 {
+  margin-top: 20px;
+}
+
+#preview-img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  padding: 5px;
+  display: none;
+}
+
+
+
+.container1 {
+  transition: height 0.3s ease; /* Transição suave ao alterar a altura */
+}
+
+.vai{
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 3vh;
+  font-size: 3vh;
+}

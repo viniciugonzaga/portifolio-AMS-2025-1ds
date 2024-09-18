@@ -1,0 +1,315 @@
+.navbar {
+    background-color: rgb(248, 244, 244);
+    display: flex;
+    justify-content: space-around;
+    border-radius: 0.5vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.9vh;
+    padding: 0vh;
+    margin: 0vh;
+    gap: 2rem;
+    height: 15vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+   
+}
+
+.nav-link{
+    color: black;
+    text-decoration: none;
+    padding: 5vh 2vw;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link2{
+color: rgb(13, 56, 196);
+text-decoration: none;
+padding: 5vh 2vw;
+transition: background-color 0.3s ease;
+
+
+
+}
+@media (max-width: 768px) {
+.navbar {
+    flex-direction: column;
+    align-items: center;
+    font-size: 2vh;
+    height: auto;
+}
+}
+.nav-link3{
+
+color: rgb(223, 18, 18);
+text-decoration: none;
+padding: 5vh 2vw;
+transition: background-color 0.3s ease;
+}
+.nav-link4{
+
+color: rgb(23, 231, 47);
+text-decoration: none;
+padding: 5vh 2vw;
+transition: background-color 0.3s ease;
+
+}
+.nav-link5 {
+color: rgb(123, 17, 244);
+text-decoration: none;
+padding: 5vh 2vw;
+transition: background-color 0.3s ease;   
+}
+
+.nav-link:hover {
+background-color: rgb(163, 157, 157);
+color: #e5dddd;
+border-radius: 6vh;
+height: 3vh;
+margin-top: 1vh;
+}
+
+.nav-link2:hover {
+background-color: rgb(12, 25, 197);
+color: #e5dddd;
+border-radius: 7vh;
+margin-bottom: 1vh;
+margin-top: 1vh;
+
+}
+
+.nav-link3:hover {
+background-color: rgb(205, 16, 16);
+color: #e5dddd;
+border-radius: 6vh;
+margin-top: 1vh;
+margin-bottom: 1vh;
+}
+
+.nav-link4:hover {
+background-color: rgb(24, 213, 11);
+color: #e5dddd;
+border-radius: 6vh;
+margin-top: 1vh;
+margin-bottom: 1vh;
+}
+
+.nav-link5:hover {
+background-color: rgb(132, 61, 199);
+color: #e5dddd;
+border-radius: 6vh;
+margin-top: 1vh;
+margin-bottom: 1vh;
+}
+
+.dropbtn {
+    padding: 4.4vh;
+    margin-top: 0.5vh;
+    height: 4vh;
+    color: rgb(99, 97, 97);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dropdown-content {
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    z-index: 1;
+    display: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: gray;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(244, 238, 238);
+}
+
+.img1 {
+    height: 11.5vh;
+    width: 11.5vh; 
+    padding: 1vh;
+    margin: 0;
+}
+.login {
+    height: 9vh;
+    width: 9vh;
+    padding: 1vh;
+    margin-top: 1vh;
+}
+
+.ajuste-nav-bar{
+
+    height: 15vh;
+    width: 100%;
+background-color:rgb(248, 244, 244);
+}
+
+/* Estilo do Carrossel */
+body {
+    
+    margin-top: 0.2vh;
+    margin-left: 0;
+    margin-right: 0;
+    height: 120vh;
+    box-sizing: border-box;
+    background-color: #a652f9;
+}
+  
+
+button {
+    background: linear-gradient(90deg, #a652f9, #ee68f6);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 5vh;
+    width: 80%;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #ee68f6, #a652f9);
+}
+
+.bercario {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: auto; /* Ajuste automático da altura */
+    max-width: 600px; /* Define uma largura máxima */
+    margin: 0 auto; /* Centraliza o bloco */
+    margin-top: 6vh;
+}
+
+.bercario h1 {
+    font-family: "Fredoka", sans-serif;
+    font-size: 3vh;
+    text-align: center;
+}
+
+.bercario p {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    padding-left: 5vw; /* Ajuste usando viewport width para responsividade */
+    padding-right: 5vw; /* Ajuste usando viewport width para responsividade */
+}
+
+.meio {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens se movam para a linha seguinte */
+    justify-content: center; /* Centraliza os itens */
+    gap: 20px; /* Espaçamento entre os itens */
+    padding: 20px; /* Adiciona algum espaço ao redor do container */
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    .bercario h1 {
+        font-size: 2.5vh;
+    }
+    .bercario p {
+        padding-left: 8vw;
+        padding-right: 8vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .bercario {
+        width: 100%; /* Faz com que o bloco ocupe toda a largura disponível */
+        height: auto; /* Remove altura fixa para melhor adaptação */
+        padding: 15px;
+    }
+
+    .bercario h1 {
+        font-size: 2vh;
+    }
+
+    .bercario p {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    .meio {
+        flex-direction: column; /* Empilha os itens verticalmente */
+        align-items: center; /* Centraliza os itens verticalmente */
+    }
+}
+
+
+.footer {
+   background-color: #a652f9;
+    color: white;
+    text-align: center;
+    padding: 2vh;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 4vw;
+ }
+ 
+ .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ }
+ 
+ .footer-column {
+    flex: 1;
+    padding: 1vh;
+ }
+ 
+ .footer-column h3 {
+    font-size: 3vh;
+    margin-bottom: 1vh;
+ }
+ 
+ .footer-column ul {
+    list-style: none;
+    padding: 0;
+ }
+ 
+ .footer-column ul li {
+    margin-bottom: 0.5vh;
+ }
+ 
+ .footer-column a {
+    color: #ffffff;
+    text-decoration: none;
+ }
+ 
+ .footer-column a:hover {
+    text-decoration: underline;
+ }
+ 
+ .social-icons ul {
+    list-style: none;
+    padding: 0;
+ }
+ 
+ .social-icons li {
+    display: inline;
+    margin-right: 1vw;
+ }
+ 
+ .social-icons img {
+    vertical-align: middle;
+ }
+ 
+ .footer-bottom {
+    margin-top: 2vh;
+    font-size: 1.6vh;
+ }

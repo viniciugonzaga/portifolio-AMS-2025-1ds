@@ -1,0 +1,298 @@
+/* Estilo geral da barra de navegação */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #008B8B;
+    box-shadow: 0px 4px 2px -2px gray;
+}
+
+.navbar img {
+    height: 50px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.navbar .dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #008B8B;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 12px 16px;
+}
+
+.login {
+    height: 40px;
+}
+
+/* Slider */
+.slider-content {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    overflow: hidden;
+}
+
+.slide-box {
+    min-width: 100%;
+    transition: 0.5s;
+}
+
+.img-desktop {
+    width: 100%;
+    height: auto;
+}
+
+.nav-manual label {
+    cursor: pointer;
+}
+
+/* Containers */
+.container, .container2, .alimentacao, .matricula {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.alimentacao {
+    gap: 20px;
+}
+
+/* Modais */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: auto;
+}
+
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    text-align: center;
+}
+
+.fechar {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.fechar:hover,
+.fechar:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Media queries para responsividade */
+
+/* Para dispositivos menores que 768px (tablets) */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    .navbar img {
+        margin-bottom: 10px;
+    }
+
+    .navbar a {
+        padding: 8px;
+        text-align: center;
+    }
+
+    .slider-content {
+        flex-direction: column;
+    }
+
+    .modal-content {
+        width: 80%;
+    }
+
+    .alimentacao, .matricula {
+        gap: 10px;
+    }
+
+    .container, .container2 {
+        padding: 10px;
+    }
+}
+
+/* Para dispositivos menores que 600px (smartphones) */
+@media (max-width: 600px) {
+    .navbar a {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .slider-content {
+        display: block;
+    }
+
+    .slider-content img {
+        width: 100%;
+    }
+
+    .modal-content {
+        width: 90%;
+    }
+
+    .alimentacao, .matricula {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .container, .container2 {
+        display: block;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .text p {
+        font-size: 14px;
+    }
+
+    .img5 {
+        width: 100%;
+    }
+}
+
+/* Para dispositivos menores que 480px (smartphones menores) */
+@media (max-width: 480px) {
+    .navbar {
+        font-size: 12px;
+    }
+
+    .navbar img {
+        height: 40px;
+    }
+
+    .navbar a {
+        padding: 4px;
+    }
+
+    .alimentacao, .matricula {
+        flex-direction: column;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .img-desktop {
+        width: 100%;
+        height: auto;
+    }
+
+    .modal-content {
+        width: 95%;
+    }
+}
+
+
+.container {
+    position: relative;
+    float: left;
+    margin: 15px;
+    display: inline-block;
+    background: linear-gradient(180deg, rgba(12, 145, 207, 0.059) 0%, rgba(8, 153, 232, 0.059) 100%);
+    border-radius: 100%;
+    margin-left: 8vh;
+    margin-top: 15vh;
+    padding: 0;
+}
+
+.container2 {
+    margin: 15px;
+    position: relative;
+    display: block;
+    padding-left: 17vh;
+    margin: 15vh;
+}
+
+/* Responsividade */
+
+/* Para dispositivos menores que 768px (tablets) */
+@media (max-width: 768px) {
+    .container {
+        float: none;
+        margin-left: 5vh;
+        margin-top: 10vh;
+        width: 80%;
+        height: auto;
+    }
+
+    .container2 {
+        padding-left: 10vh;
+        margin: 10vh 5px;
+        width: 80%;
+    }
+}
+
+/* Para dispositivos menores que 600px (smartphones) */
+@media (max-width: 600px) {
+    .container {
+        margin-left: 3vh;
+        margin-top: 8vh;
+        width: 70%;
+        height: auto;
+    }
+
+    .container2 {
+        padding-left: 5vh;
+        margin: 8vh 5px;
+        width: 90%;
+    }
+}
+
+/* Para dispositivos menores que 480px (smartphones menores) */
+@media (max-width: 480px) {
+    .container {
+        margin-left: 2vh;
+        margin-top: 5vh;
+        width: 100%;
+        height: auto;
+    }
+
+    .container2 {
+        padding-left: 0;
+        margin: 5vh 5px;
+        width: 100%;
+        text-align: center;
+    }
+}

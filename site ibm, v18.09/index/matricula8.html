@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pagamento</title>
+  <link rel="stylesheet" href="css/matricula8.css">
+  <link rel="icon" href="logo.png" type="image/x-icon">
+</head>
+<body>
+  <div class="container">
+    <h2>Matrícula</h2>
+    <h3>Valor da Matrícula: 450,00R$</h3>
+    <h3>Formas de Pagamento</h3>
+    
+    <div class="payment-option">
+      <a href="pix.html"><img src="imagens/icons8-foto-48.png" alt="PIX"></a>
+      <a href="pix.html" target="_blank"><p>PIX</p></a>
+    </div>
+    <div class="payment-option">
+      <a href="cartão-de-credito.html"><img src="imagens/icons8-cartão-de-crédito-50.png" alt="Cartão de Crédito"></a>
+     <a href="cartão-de-credito.html" target="_blank"> <p>Cartão de Crédito</p></a>
+    </div>
+    <div class="payment-option">
+      <a href="boleto.html"><img src="imagens/icons8-boleto-64.png" alt="Boleto"> </a>
+      <a href="boleto.html " target="_blank"><p>Boleto</p></a>
+    </div>
+    <div class="button-container">
+        <button type="button" class="anterior">Anterior</button>
+        
+      </div>
+  </div>
+  <script>
+
+document.querySelector('.anterior').addEventListener('click', function() {
+// Volta para a página anterior
+window.location.href = 'matricula7.html'; // Caminho para a página anterior
+});
+  </script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Matrícula - Contato</title>
+  <link rel="stylesheet" href="css/matricula1.css">
+  <link rel="icon" href="logo.png" type="image/x-icon">
+</head>
+<body>
+  <div class="container">
+    <h1>Matrícula</h1>
+    <h2>Dados de Contato</h2>
+    <form>
+      <label for="endereco">Endereço Completo</label>
+      <input type="text" id="endereco" name="endereco" placeholder="" required>
+
+
+      <label for="bairro">Bairro</label>
+      <input type="text" id="bairro" name="bairro" placeholder="" required>
+
+      <label for="cidade">Cidade</label>
+      <input type="text" id="cidade" name="cidade" placeholder="" required>
+
+      <label for="estado">Estado</label>
+      <input type="text" id="estado" name="estado" placeholder="" required>
+
+      <label for="cep">CEP</label>
+      <input type="text" id="cep" name="cep" placeholder="" required>
+
+      <div class="button-container">
+        <button type="button" class="anterior">Anterior</button>
+        <button type="submit" class="proximo">Próximo</button>
+      </div>
+    </form>
+  </div>
+  <script>
+    document.querySelector('.proximo').addEventListener('click', function() {
+
+// Salva os dados no localStorage
+const Endereço = document.getElementById('endereco').value;
+const Bairro = document.getElementById('bairro').value;
+const cep = document.getElementById('cep').value;
+const cidade = document.getElementById('cidade').value;
+const esatdo = document.getElementById('estado').value;
+
+
+
+// Vai para a próxima página
+window.location.href = 'matricula3.3.html'; // Caminho para a próxima página
+});
+
+document.querySelector('.anterior').addEventListener('click', function() {
+// Volta para a página anterior
+window.location.href = 'matricula2.2.html'; // Caminho para a página anterior
+});
+  </script>
+</body>
+</html>

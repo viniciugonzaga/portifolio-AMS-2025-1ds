@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento com Boleto</title>
+   <style>
+    body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.payment-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#message {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+   </style>
+<body>
+    <div class="payment-container">
+        <h1>Pagamento com Boleto</h1>
+        <form id="payment-form">
+            <div class="form-group">
+                <label for="name">Nome Completo:</label>
+                <input type="text" id="name" placeholder="Nome Completo" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="seuemail@exemplo.com" required>
+            </div>
+            <div class="form-group">
+                <label for="amount">Valor:</label>
+                <input type="text" id="amount" placeholder="R$ 0,00" required>
+            </div>
+            <div class="form-group">
+                <label for="due-date">Data de Vencimento:</label>
+                <input type="text" id="due-date" placeholder="DD/MM/AAAA" maxlength="10" required>
+            </div>
+            <button type="submit">Gerar Boleto</button>
+            <p id="message"></p>
+        </form>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+    const form = document.getElementById('payment-form');
+    const nameInput = document.getElementById('name');
+    const emailInput = document.getElementById('email');
+    const amountInput = document.getElementById('amount');
+    const dueDateInput = document.getElementById('due-date');
+    const messageElement = document.getElementById('message');
+
+    amountInput.addEventListener('input', formatAmount);
+    dueDateInput.addEventListener('input', formatDueDate);
+
+    form.addEventListener('submit', function (event) {
+        event.preventDefault();
+        const name = nameInput.value.trim();
+        const email = emailInput.value.trim();
+        const amount = amountInput.value.replace(/\D/g, '');
+        const dueDate = dueDateInput.value;
+
+        if (validateName(name) && validateEmail(email) && validateAmount(amount) && validateDueDate(dueDate)) {
+            messageElement.textContent = 'Boleto gerado com sucesso!';
+            messageElement.style.color = 'green';
+        } else {
+            messageElement.textContent = 'Por favor, preencha todos os campos corretamente.';
+            messageElement.style.color = 'red';
+        }
+    });
+
+    function formatAmount(event) {
+        const input = event.target;
+        let value = input.value.replace(/\D/g, '');
+        if (value.length > 0) {
+            value = (parseInt(value, 10) / 100).toFixed(2);
+            value = value.replace('.', ',');
+        }
+        input.value = 'R$ ' + value;
+    }
+
+    function formatDueDate(event) {
+        const input = event.target;
+        let value = input.value.replace(/\D/g, '');
+        if (value.length > 2) {
+            value = value.slice(0, 2) + '/' + value.slice(2);
+        }
+        input.value = value;
+    }
+
+    function validateName(name) {
+        return name.length > 0;
+    }
+
+    function validateEmail(email) {
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
+    }
+
+    function validateAmount(amount) {
+        return /^\d{1,15}$/.test(amount);
+    }
+
+    function validateDueDate(date) {
+        const dateRegex = /^(0[1-9]|[12][0-9]|3[01])\/(0[1-9]|1[0-2])\/\d{4}$/;
+        return dateRegex.test(date);
+    }
+});
+
+    </script>
+</body>
+</html>

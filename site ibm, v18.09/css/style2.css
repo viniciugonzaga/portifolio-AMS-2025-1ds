@@ -1,0 +1,1331 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: "Fredoka", sans-serif;
+    text-align: center;
+    font-weight: 700;
+ }
+ 
+ p {
+    font-family: "Poppins", sans-serif
+ }
+
+ /* Desktop */
+ @media screen and (min-width: 1200px){
+/* Barra de Navegação */
+.navbar {
+   background-color: rgb(248, 244, 244);
+   display: flex;
+   justify-content: space-around;
+   border-radius: 0.5vh;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 2.9vh;
+   padding: 0vh;
+   margin: 0vh;
+   gap: 2rem;
+   height: 15vh;
+   width: 100%;
+   top: 0;
+   left: 0;
+   z-index: 1;
+  
+}
+
+.nav-link{
+       color: black;
+       text-decoration: none;
+       padding: 5vh 2vw;
+       transition: background-color 0.3s ease;
+   }
+
+.nav-link2{
+   color: rgb(13, 56, 196);
+   text-decoration: none;
+   padding: 5vh 2vw;
+   transition: background-color 0.3s ease;
+   
+
+   
+}
+@media (max-width: 768px) {
+   .navbar {
+       flex-direction: column;
+       align-items: center;
+       font-size: 2vh;
+       height: auto;
+   }
+}
+.nav-link3{
+
+   color: rgb(223, 18, 18);
+   text-decoration: none;
+   padding: 5vh 2vw;
+   transition: background-color 0.3s ease;
+}
+.nav-link4{
+
+   color: rgb(23, 231, 47);
+   text-decoration: none;
+   padding: 5vh 2vw;
+   transition: background-color 0.3s ease;
+
+}
+.nav-link5 {
+   color: rgb(123, 17, 244);
+   text-decoration: none;
+   padding: 5vh 2vw;
+   transition: background-color 0.3s ease;   
+}
+
+.nav-link:hover {
+   background-color: rgb(163, 157, 157);
+   color: #e5dddd;
+   border-radius: 6vh;
+   margin-top: 1vh;
+   margin-bottom: 1vh;
+}
+
+.nav-link2:hover {
+   background-color: rgb(12, 25, 197);
+   color: #e5dddd;
+   border-radius: 6vh;
+   margin-bottom: 1vh;
+   margin-top: 1vh;
+   
+
+}
+
+.nav-link3:hover {
+   background-color: rgb(205, 16, 16);
+   color: #e5dddd;
+   border-radius: 6vh;
+   margin-top: 1vh;
+   margin-bottom: 1vh;
+}
+
+.nav-link4:hover {
+   background-color: rgb(24, 213, 11);
+   color: #e5dddd;
+   border-radius: 6vh;
+   margin-top: 1vh;
+   margin-bottom: 1vh;
+   
+}
+
+.nav-link5:hover {
+   background-color: rgb(132, 61, 199);
+   color: #e5dddd;
+   border-radius: 6vh;
+   margin-top: 1vh;
+   margin-bottom: 1vh;
+  
+}
+
+.dropbtn {
+   padding: 4.4vh;
+   margin-top: 0.5vh;
+   height: 4vh;
+   color: rgb(99, 97, 97);
+   border: none;
+   cursor: pointer;
+   display: flex;
+   justify-content: space-around;
+}
+
+.dropdown-content {
+   position: absolute;
+   background-color: white;
+   min-width: 160px;
+   z-index: 1;
+   display: none;
+}
+
+.dropdown:hover .dropdown-content {
+   display: block;
+}
+
+.dropdown-content a {
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+   color: gray;
+}
+
+.dropdown-content a:hover {
+   background-color: rgb(244, 238, 238);
+}
+
+.img1 {
+   height: 11.5vh;
+   width: 11.5vh; 
+   padding: 1vh;
+   margin: 0;
+}
+.login {
+   height: 9vh;
+   width: 9vh;
+   padding: 1vh;
+   margin-top: 1vh;
+}
+
+.ajuste-nav-bar{
+
+   height: 15vh;
+   width: 100%;
+background-color:rgb(248, 244, 244);
+}
+/* Educação Infantil */
+ 
+.ed0 {
+   display: flex;
+   flex-direction: column;
+}
+
+.ed1 {
+   background-color: #7CE86C;
+   height: 91vh;
+   margin: 0;
+   padding: 0;
+}
+
+.ed11 {
+   padding-top: 20vh;
+   font-size: 2.5em;
+}
+
+.ed12 {
+   font-family: "Poppins", sans-serif;
+   text-align: right;
+   margin-top: 5vh;
+   width: 40vw;
+   font-size: 1.3em;
+}
+
+.irmaos{
+width: 400px;
+height: 400px;
+}
+
+.textoeimg2 {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   row-gap: 30vw;
+   gap: 4vw;
+   align-items: center;
+}
+
+.ed2 {
+   background-color: rgb(255, 255, 255);
+   height: 80vh;
+   margin: 0;
+   padding: 0;
+}
+
+#retangulo2 {
+   width: 60%; 
+   max-width: 90vw; 
+   height: 30vh; 
+   padding:  7.727975270479135vh; 
+   background-image: linear-gradient(to bottom, #00FF38, #51FF77);
+   border-radius: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin:  4.636785162287481vh auto; 
+   text-align: center;
+}
+
+.ed21 {
+   color: #00FF38;
+   padding-top: 15vh;
+   font-size: 2.5em;
+}
+
+.ed22 {
+   line-height: 1.6;
+   color: rgb(0, 0, 0);
+   font-size: 1.4em;
+}
+
+.ed3 {
+   background-color: #f1f1f1;
+   padding: 40px 0;
+}
+
+.ed31 {
+   color: #00FF38;
+   font-size: 2.5em;
+}
+
+.ativs2 {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   flex-wrap: wrap; 
+   gap: 30px;
+   margin-top: 30px;
+}
+
+.al, .aa, .ad {
+   background-color: #00FF38;
+   width: calc(33% - 40px); 
+   max-width: 350px; 
+   height: 350px;
+   border-radius: 30px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center; 
+   padding: 20px; 
+   text-align: center; 
+   color: rgb(0, 0, 0); 
+}
+
+.alimg, .aaimg, .adimg {
+   width: 100%;
+   max-width: 70vh; 
+   height: 40vh;
+   object-fit: cover;
+   margin-bottom: 3vh;
+}
+
+.ed32, .ed33, .ed34 {
+   font-size: 1.3em; 
+   line-height: 1.4;
+}
+/* Footer */
+.footer {
+   background: linear-gradient(to bottom,  #51FF77 ,#00FF38);
+   color: white;
+   text-align: center;
+   padding: 2vh;
+   font-family: 'Poppins', sans-serif;
+}
+
+.footer-container {
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+
+.footer-column {
+   flex: 1;
+   padding: 1vh;
+}
+
+.footer-column h3 {
+   font-size: 3vh;
+   margin-bottom: 1vh;
+}
+
+.footer-column ul {
+   list-style: none;
+   padding: 0;
+}
+
+.footer-column ul li {
+   margin-bottom: 0.5vh;
+}
+
+.footer-column a {
+   color: #ffffff;
+   text-decoration: none;
+}
+
+.footer-column a:hover {
+   text-decoration: underline;
+}
+
+.social-icons ul {
+   list-style: none;
+   padding: 0;
+}
+
+.social-icons li {
+   display: inline;
+   margin-right: 1vw;
+}
+
+.social-icons img {
+   vertical-align: middle;
+}
+
+.footer-bottom {
+   margin-top: 2vh;
+   font-size: 1.6vh;
+}
+ }
+
+/* Laptop */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+/* Barra de Navegação */
+.navbar {
+   background-color: rgb(248, 244, 244);
+   display: flex;
+   justify-content: space-around;
+   border-radius: 0.9vh;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 2.8vh;
+   padding: 0;
+   margin: 0;
+   gap: 3vw;
+   height: 15vh;
+   position: fixed;
+   width: 100%;
+   top: 0;
+   left: 0;
+   z-index: 1000;
+}
+
+.nav-link{
+   color: black;
+   text-decoration: none;
+   padding: 5vh;
+   transition: background-color 0.3s ease;
+}
+
+.nav-link2{
+   color: rgb(13, 56, 196);
+   text-decoration: none;
+   padding: 3vh;
+   transition: background-color 0.3s ease;
+   margin-top: 2.3vh;
+}
+
+.nav-link3{
+   color: rgb(223, 18, 18);
+   text-decoration: none;
+   padding: 5vh;
+   transition: background-color 0.3s ease;
+}
+
+.nav-link4{
+   color: rgb(23, 231, 47);
+   text-decoration: none;
+   padding: 5vh;
+   transition: background-color 0.3s ease;
+}
+
+.nav-link5 {
+   color: rgb(123, 17, 244);
+   text-decoration: none;
+   padding: 5vh;
+   transition: background-color 0.3s ease;   
+}
+
+.nav-link:hover {
+   background-color: rgb(163, 157, 157);
+   color: #e5dddd;
+   border-radius: 6vh;
+   height: 3vh;
+   margin-top: 1vh;
+}
+
+.nav-link2:hover {
+   background-color: rgb(12, 25, 197);
+   color: #e5dddd;
+   border-radius: 7vh;
+   height: 5vh;
+}
+
+.nav-link3:hover {
+   background-color: rgb(205, 16, 16);
+   color: #e5dddd;
+   border-radius: 6vh;
+   margin-top: 1vh;
+   height: 3vh;
+}
+
+.nav-link4:hover {
+   background-color: rgb(24, 213, 11);
+   color: #e5dddd;
+   border-radius: 6vh;
+   margin-top: 1vh;
+   height: 3vh;
+}
+
+.nav-link5:hover {
+   background-color: rgb(132, 61, 199);
+   color: #e5dddd;
+   border-radius: 6vh;
+   margin-top: 1vh;
+   height: 3vh;
+}
+
+.dropbtn {
+   padding: 4.4vh;
+   margin-top: 1vh;
+   height: 4vh;
+   color: rgb(99, 97, 97);
+   border: none;
+   cursor: pointer;
+   display: flex;
+   justify-content: space-around;
+}
+
+.dropdown-content {
+   position: absolute;
+   background-color: white;
+   min-width: 16vw;
+   z-index: 1;
+   display: none;
+}
+
+.dropdown:hover .dropdown-content {
+   display: block;
+}
+
+.dropdown-content a {
+   padding: 1.2vh 1.6vw;
+   text-decoration: none;
+   display: block;
+   color: gray;
+}
+
+.dropdown-content a:hover {
+   background-color: rgb(244, 238, 238);
+}
+
+.img1 {
+   height: 11.5vh;
+   width: 11.5vh;
+   padding: 1vh;
+   margin: 0;
+}
+
+.login {
+   height: 9vh;
+   width: 9vh;
+   padding: 1vh;
+   margin-top: 1vh;
+}
+/* Educação Infantil */
+ 
+.ed0 {
+   display: flex;
+   flex-direction: column;
+}
+
+.ed1 {
+   background-color: #7CE86C;
+   height: 91vh;
+   margin: 0;
+   padding: 0;
+}
+
+.ed11 {
+   padding-top: 20vh;
+}
+
+.ed12 {
+   font-family: "Poppins", sans-serif;
+   text-align: right;
+   margin-top: 5vh;
+   width: 40vw;
+}
+
+.irmaos{
+   width: 300px;
+   height: 300px;
+}
+
+.textoeimg2 {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   row-gap: 30vw;
+   gap: 4vw;
+   align-items: center;
+}
+
+.ed2 {
+   background-color: rgb(255, 255, 255);
+   height: 80vh;
+   margin: 0;
+   padding: 0;
+}
+
+#retangulo2 {
+   width: 60%; 
+   max-width: 70vw; 
+   height: 30vh; 
+   padding:  7.727975270479135vh; 
+   background-image: linear-gradient(to bottom, #00FF38, #51FF77);
+   border-radius: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin:  4.636785162287481vh auto; 
+   text-align: center;
+}
+
+.ed21 {
+   color: #00FF38;
+   padding-top: 15vh;
+}
+
+.ed22 {
+   line-height: 1.6;
+   color: rgb(0, 0, 0);
+}
+
+.ed3 {
+   background-color: #f1f1f1;
+   padding: 40px 0;
+}
+
+.ed31 {
+   color: #00FF38;
+}
+
+.ativs2 {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   flex-wrap: wrap; 
+   gap: 30px;
+   margin-top: 30px;
+}
+
+.al, .aa, .ad {
+   background-color: #00FF38;
+   width: calc(33% - 40px); 
+   max-width: 350px; 
+   height: 350px;
+   border-radius: 30px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center; 
+   padding: 20px; 
+   text-align: center; 
+   color: rgb(0, 0, 0); 
+}
+
+.alimg, .aaimg, .adimg {
+   width: 100%;
+   max-width: 70vh; 
+   height: 40vh;
+   object-fit: cover;
+   margin-bottom: 3vh;
+}
+
+.ed32, .ed33, .ed34 {
+   font-size: 18px; 
+   line-height: 1.4;
+}
+/* Footer */
+.footer {
+   background: linear-gradient(to bottom,  #51FF77 ,#00FF38);
+   color: white;
+   text-align: center;
+   padding: 2vh;
+   font-family: 'Poppins', sans-serif;
+}
+
+.footer-container {
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+
+.footer-column {
+   flex: 1;
+   padding: 1vh;
+}
+
+.footer-column h3 {
+   font-size: 3vh;
+   margin-bottom: 1vh;
+}
+
+.footer-column ul {
+   list-style: none;
+   padding: 0;
+}
+
+.footer-column ul li {
+   margin-bottom: 0.5vh;
+}
+
+.footer-column a {
+   color: #ffffff;
+   text-decoration: none;
+}
+
+.footer-column a:hover {
+   text-decoration: underline;
+}
+
+.social-icons ul {
+   list-style: none;
+   padding: 0;
+}
+
+.social-icons li {
+   display: inline;
+   margin-right: 1vw;
+}
+
+.social-icons img {
+   vertical-align: middle;
+}
+
+.footer-bottom {
+   margin-top: 2vh;
+   font-size: 1.6vh;
+}
+
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+/* Barra de Navegação */
+.navbar {
+   background-color: rgb(248, 244, 244);
+   display: flex;
+   justify-content: space-around;
+   border-radius: 0.9vh;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 2.8vh;
+   padding: 0;
+   margin: 0;
+   gap: 3vw;
+   height: 15vh;
+   position: fixed;
+   width: 100%;
+   top: 0;
+   left: 0;
+   z-index: 1000;
+}
+
+.nav-link{
+   color: black;
+   text-decoration: none;
+   padding: 5vh;
+   transition: background-color 0.3s ease;
+}
+
+.nav-link2{
+   color: rgb(13, 56, 196);
+   text-decoration: none;
+   padding: 3vh;
+   transition: background-color 0.3s ease;
+   margin-top: 2.3vh;
+}
+
+.nav-link3{
+   color: rgb(223, 18, 18);
+   text-decoration: none;
+   padding: 5vh;
+   transition: background-color 0.3s ease;
+}
+
+.nav-link4{
+   color: rgb(23, 231, 47);
+   text-decoration: none;
+   padding: 5vh;
+   transition: background-color 0.3s ease;
+}
+
+.nav-link5 {
+   color: rgb(123, 17, 244);
+   text-decoration: none;
+   padding: 5vh;
+   transition: background-color 0.3s ease;   
+}
+
+.nav-link:hover {
+   background-color: rgb(163, 157, 157);
+   color: #e5dddd;
+   border-radius: 6vh;
+   height: 3vh;
+   margin-top: 1vh;
+}
+
+.nav-link2:hover {
+   background-color: rgb(12, 25, 197);
+   color: #e5dddd;
+   border-radius: 7vh;
+   height: 5vh;
+}
+
+.nav-link3:hover {
+   background-color: rgb(205, 16, 16);
+   color: #e5dddd;
+   border-radius: 6vh;
+   margin-top: 1vh;
+   height: 3vh;
+}
+
+.nav-link4:hover {
+   background-color: rgb(24, 213, 11);
+   color: #e5dddd;
+   border-radius: 6vh;
+   margin-top: 1vh;
+   height: 3vh;
+}
+
+.nav-link5:hover {
+   background-color: rgb(132, 61, 199);
+   color: #e5dddd;
+   border-radius: 6vh;
+   margin-top: 1vh;
+   height: 3vh;
+}
+
+.dropbtn {
+   padding: 4.4vh;
+   margin-top: 1vh;
+   height: 4vh;
+   color: rgb(99, 97, 97);
+   border: none;
+   cursor: pointer;
+   display: flex;
+   justify-content: space-around;
+}
+
+.dropdown-content {
+   position: absolute;
+   background-color: white;
+   min-width: 16vw;
+   z-index: 1;
+   display: none;
+}
+
+.dropdown:hover .dropdown-content {
+   display: block;
+}
+
+.dropdown-content a {
+   padding: 1.2vh 1.6vw;
+   text-decoration: none;
+   display: block;
+   color: gray;
+}
+
+.dropdown-content a:hover {
+   background-color: rgb(244, 238, 238);
+}
+
+.img1 {
+   height: 11.5vh;
+   width: 11.5vh;
+   padding: 1vh;
+   margin: 0;
+}
+
+.login {
+   height: 9vh;
+   width: 9vh;
+   padding: 1vh;
+   margin-top: 1vh;
+}
+/* Educação Infantil */
+ 
+.ed0 {
+   display: flex;
+   flex-direction: column;
+}
+
+.ed1 {
+   background-color: #7CE86C;
+   height: 91vh;
+   margin: 0;
+   padding: 0;
+}
+
+.ed11 {
+   padding-top: 20vh;
+}
+
+.ed12 {
+   font-family: "Poppins", sans-serif;
+   text-align: right;
+   margin-top: 5vh;
+   width: 50vw;
+}
+
+.irmaos{
+   width: 300px;
+   height: 300px;
+}
+
+.textoeimg2 {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   row-gap: 30vw;
+   gap: 4vw;
+   align-items: center;
+}
+
+.ed2 {
+   background-color: rgb(255, 255, 255);
+   height: 80vh;
+   margin: 0;
+   padding: 0;
+}
+
+#retangulo2 {
+   width: 60%; 
+   max-width: 70vw; 
+   height: 30vh; 
+   padding:  7.727975270479135vh; 
+   background-image: linear-gradient(to bottom, #00FF38, #51FF77);
+   border-radius: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin:  4.636785162287481vh auto; 
+   text-align: center;
+}
+
+.ed21 {
+   color: #00FF38;
+   padding-top: 10vh;
+}
+
+.ed22 {
+   line-height: 1.6;
+   color: rgb(0, 0, 0);
+}
+
+.ed3 {
+   background-color: #f1f1f1;
+   padding: 40px 0;
+}
+
+.ed31 {
+   color: #00FF38;
+}
+
+.ativs2 {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   flex-wrap: wrap; 
+   gap: 30px;
+   margin-top: 30px;
+   align-items: center;
+}
+
+.al, .aa, .ad {
+   background-color: #00FF38;
+   width: calc(33% - 40px); 
+   max-width: 350px; 
+   height: 350px;
+   border-radius: 30px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center; 
+   padding: 20px; 
+   text-align: center; 
+   color: rgb(0, 0, 0); 
+}
+
+.alimg, .aaimg, .adimg {
+   width: 100%;
+   max-width: 70vh; 
+   height: 40vh;
+   object-fit: cover;
+   margin-bottom: 3vh;
+}
+
+.ed32, .ed33, .ed34 {
+   font-size: 18px; 
+   line-height: 1.4;
+}
+/* Footer */
+.footer {
+   background: linear-gradient(to bottom,  #51FF77 ,#00FF38);
+   color: white;
+   text-align: center;
+   padding: 2vh;
+   font-family: 'Poppins', sans-serif;
+}
+
+.footer-container {
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+
+.footer-column {
+   flex: 1;
+   padding: 1vh;
+}
+
+.footer-column h3 {
+   font-size: 3vh;
+   margin-bottom: 1vh;
+}
+
+.footer-column ul {
+   list-style: none;
+   padding: 0;
+}
+
+.footer-column ul li {
+   margin-bottom: 0.5vh;
+}
+
+.footer-column a {
+   color: #ffffff;
+   text-decoration: none;
+}
+
+.footer-column a:hover {
+   text-decoration: underline;
+}
+
+.social-icons ul {
+   list-style: none;
+   padding: 0;
+}
+
+.social-icons li {
+   display: inline;
+   margin-right: 1vw;
+}
+
+.social-icons img {
+   vertical-align: middle;
+}
+
+.footer-bottom {
+   margin-top: 2vh;
+   font-size: 1.6vh;
+}
+
+}
+
+/* Celular */
+@media screen and (max-width: 767px) {
+/* Barra de Navegação */
+.navbar {
+   background-color: rgb(248, 244, 244);
+   display: flex;
+   justify-content: space-around;
+   border-radius: 0.9vh;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 2.8vh;
+   padding: 0;
+   margin: 0;
+   gap: 3vw;
+   height: 15vh;
+   position: fixed;
+   width: 100%;
+   top: 0;
+   left: 0;
+   z-index: 1000;
+}
+
+.nav-link{
+   color: black;
+   text-decoration: none;
+   padding: 5vh;
+   transition: background-color 0.3s ease;
+}
+
+.nav-link2{
+   color: rgb(13, 56, 196);
+   text-decoration: none;
+   padding: 3vh;
+   transition: background-color 0.3s ease;
+   margin-top: 2.3vh;
+}
+
+.nav-link3{
+   color: rgb(223, 18, 18);
+   text-decoration: none;
+   padding: 5vh;
+   transition: background-color 0.3s ease;
+}
+
+.nav-link4{
+   color: rgb(23, 231, 47);
+   text-decoration: none;
+   padding: 5vh;
+   transition: background-color 0.3s ease;
+}
+
+.nav-link5 {
+   color: rgb(123, 17, 244);
+   text-decoration: none;
+   padding: 5vh;
+   transition: background-color 0.3s ease;   
+}
+
+.nav-link:hover {
+   background-color: rgb(163, 157, 157);
+   color: #e5dddd;
+   border-radius: 6vh;
+   height: 3vh;
+   margin-top: 1vh;
+}
+
+.nav-link2:hover {
+   background-color: rgb(12, 25, 197);
+   color: #e5dddd;
+   border-radius: 7vh;
+   height: 5vh;
+}
+
+.nav-link3:hover {
+   background-color: rgb(205, 16, 16);
+   color: #e5dddd;
+   border-radius: 6vh;
+   margin-top: 1vh;
+   height: 3vh;
+}
+
+.nav-link4:hover {
+   background-color: rgb(24, 213, 11);
+   color: #e5dddd;
+   border-radius: 6vh;
+   margin-top: 1vh;
+   height: 3vh;
+}
+
+.nav-link5:hover {
+   background-color: rgb(132, 61, 199);
+   color: #e5dddd;
+   border-radius: 6vh;
+   margin-top: 1vh;
+   height: 3vh;
+}
+
+.dropbtn {
+   padding: 4.4vh;
+   margin-top: 1vh;
+   height: 4vh;
+   color: rgb(99, 97, 97);
+   border: none;
+   cursor: pointer;
+   display: flex;
+   justify-content: space-around;
+}
+
+.dropdown-content {
+   position: absolute;
+   background-color: white;
+   min-width: 16vw;
+   z-index: 1;
+   display: none;
+}
+
+.dropdown:hover .dropdown-content {
+   display: block;
+}
+
+.dropdown-content a {
+   padding: 1.2vh 1.6vw;
+   text-decoration: none;
+   display: block;
+   color: gray;
+}
+
+.dropdown-content a:hover {
+   background-color: rgb(244, 238, 238);
+}
+
+.img1 {
+   height: 11.5vh;
+   width: 11.5vh;
+   padding: 1vh;
+   margin: 0;
+}
+
+.login {
+   height: 9vh;
+   width: 9vh;
+   padding: 1vh;
+   margin-top: 1vh;
+}
+/* Educação Infantil */
+ 
+.ed0 {
+   display: flex;
+   flex-direction: column;
+}
+
+.ed1 {
+   background-color: #7CE86C;
+   height: 91vh;
+   margin: 0;
+   padding: 0;
+}
+
+.ed11 {
+   padding-top: 20vh;
+}
+
+.ed12 {
+   font-family: "Poppins", sans-serif;
+   text-align: right;
+   margin-top: 5vh;
+   width: 55vw;
+   font-size: 0.8em;
+}
+
+.irmaos{
+width: 150px;
+height: 150px;
+}
+
+.textoeimg2 {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   row-gap: 30vw;
+   gap: 4vw;
+   align-items: center;
+}
+
+.ed2 {
+   background-color: rgb(255, 255, 255);
+   height: 80vh;
+   margin: 0;
+   padding: 0;
+}
+
+#retangulo2 {
+   width: 60%; 
+   max-width: 70vw; 
+   height: 30vh; 
+   padding:  7.727975270479135vh; 
+   background-image: linear-gradient(to bottom, #00FF38, #51FF77);
+   border-radius: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin:  4.636785162287481vh auto; 
+   text-align: center;
+   font-size: 0.75em;
+}
+
+.ed21 {
+   color: #00FF38;
+   padding-top: 15vh;
+}
+
+.ed22 {
+   line-height: 1.6;
+   color: rgb(0, 0, 0);
+}
+
+.ed3 {
+   background-color: #f1f1f1;
+   padding: 40px 0;
+}
+
+.ed31 {
+   color: #00FF38;
+}
+
+.ativs2 {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   flex-wrap: wrap; 
+   gap: 30px;
+   margin-top: 30px;
+   align-items: center;
+}
+
+.al, .aa, .ad {
+   background-color: #00FF38;
+   width: 50vh; 
+   max-width: 350px; 
+   height: 350px;
+   border-radius: 30px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center; 
+   padding: 20px; 
+   text-align: center; 
+   color: rgb(0, 0, 0); 
+}
+
+.alimg, .aaimg, .adimg {
+   width: 100%;
+   max-width: 70vh; 
+   height: 40vh;
+   object-fit: cover;
+   margin-bottom: 3vh;
+}
+
+.ed32, .ed33, .ed34 {
+   font-size: 18px; 
+   line-height: 1.4;
+}
+/* Footer */
+.footer {
+   background: linear-gradient(to bottom,  #51FF77 ,#00FF38);
+   color: white;
+   text-align: center;
+   padding: 2vh;
+   font-family: 'Poppins', sans-serif;
+}
+
+.footer-container {
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+
+.footer-column {
+   flex: 1;
+   padding: 1vh;
+}
+
+.footer-column h3 {
+   font-size: 3vh;
+   margin-bottom: 1vh;
+}
+
+.footer-column ul {
+   list-style: none;
+   padding: 0;
+}
+
+.footer-column ul li {
+   margin-bottom: 0.5vh;
+}
+
+.footer-column a {
+   color: #ffffff;
+   text-decoration: none;
+}
+
+.footer-column a:hover {
+   text-decoration: underline;
+}
+
+.social-icons ul {
+   list-style: none;
+   padding: 0;
+}
+
+.social-icons li {
+   display: inline;
+   margin-right: 1vw;
+}
+
+.social-icons img {
+   vertical-align: middle;
+}
+
+.footer-bottom {
+   margin-top: 2vh;
+   font-size: 1.6vh;
+}
+
+}
