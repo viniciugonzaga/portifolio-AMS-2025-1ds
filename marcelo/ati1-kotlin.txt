@@ -1,0 +1,51 @@
+   
+    val arrayInt :Array<Int> = arrayOf(1,2,3,4)
+    val x = arrayInt[2]
+    println(x)
+
+///////////////////////////
+    
+        
+   val lista = mutableListOf(1,2,3,4)
+   lista.add(5)
+   
+   print(lista)
+    
+///////////////////////////
+
+   val senha = "123"
+    
+    if (senha =="123"){
+    println ("Acesso concedido")
+    }else{
+        println("senha incorreta")
+    }
+    
+
+//////////////////////////
+
+  val a = 10
+    val b = 5
+    
+    if (a> b){
+        println("$a é maior que $b")
+    }
+
+/////////////////////////
+
+    val a = 10
+    val b = 5
+    
+    if (a> b){
+        println("$a é maior que $b")
+    }else{
+        println("$a é menor que $b")
+    }
+ ////////////////////////
+
+val lista = listOf(1,2,3,4)
+
+for (i in lista){
+    println("item: $i")
+}
+     
