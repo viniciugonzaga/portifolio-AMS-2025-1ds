@@ -1,0 +1,67 @@
+fun main(args: Array<String>) {
+
+    // Exercício 1: Exibir nome
+    println("Meu nome é João")
+
+    // Exercício 2: Exibir nome com comentário
+    // Esta função imprime meu nome no console
+    println("Meu nome é Vinícius")
+
+    // Exercício 3: Operações matemáticas
+    val a = 10
+    val b = 5
+    println("Soma: ${a + b}")
+    println("Subtração: ${a - b}")
+    println("Divisão: ${a / b}")
+    println("Multiplicação: ${a * b}")
+
+    // Exercício 4: Calcular área do retângulo
+    val largura = 4
+    val altura = 7
+    val area = largura * altura
+    println("A área do retângulo é $area")
+
+    // Exercício 5: Exibir resultado de uma string
+    val texto = "Kotlin é incrível!"
+    println("O texto recebido foi: $texto")
+
+    // Exercício 6: Exibir valores de um array
+    val numeros = arrayOf(1, 2, 3, 4, 5)
+    for (num in numeros) {
+        println(num)
+    }
+
+    // Exercício 7: Adicionar itens a um array
+    val lista = mutableListOf(1, 2, 3)
+    lista.add(4)
+    println("Novo array: $lista")
+
+    // Exercício 8: Verificar senha
+    val senhaCorreta = "1234"
+    val senhaDigitada = "1234"
+    if (senhaDigitada == senhaCorreta) {
+        println("Acesso permitido")
+    } else {
+        println("Acesso negado")
+    }
+
+    // Exercício 9: Comparar dois valores
+    val x = 7
+    val y = 12
+    if (x > y) {
+        println("$x é maior que $y")
+    } else if (x < y) {
+        println("$y é maior que $x")
+    } else {
+        println("Os valores são iguais")
+    }
+
+    // Exercício 10: Estrutura de repetição
+    for (i in 1..5) {
+        println(i)
+    }
+
+
+
+    println("Program arguments: ${args.joinToString()}")
+}
