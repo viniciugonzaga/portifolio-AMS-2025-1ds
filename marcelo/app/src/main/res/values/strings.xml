@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Courses</string>
+    <string name="architecture">Arquitetura</string>
+    <string name="crafts">Artesanato</string>
+    <string name="business">Negócios</string>
+    <string name="design">Design</string>
+    <string name="fashion">Moda</string>
+    <string name="film">Cinema</string>
+    <string name="gaming">Jogos</string>
+    <string name="photography">Fotografia</string>
+    <string name="tech">Tecnologia</string>
+</resources>
