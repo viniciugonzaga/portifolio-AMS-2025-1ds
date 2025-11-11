@@ -17,7 +17,7 @@ Este projeto foi desenvolvido como um exercício prático do curso **Noções B�
 
 Abaixo está uma captura de tela da compilação bem-sucedida do aplicativo, mostrando a grade de temas funcionando no dispositivo.
 
-**[INSERIR A IMAGEM AQUI: image_f688ab.jpg]** > **Observação:** O nome do arquivo da imagem deve ser exatamente o que você carregou no GitHub. Se for `image_f688ab.jpg`, use `![Screenshot do App Courses](image_f688ab.jpg)`.
+[Screenshot do App Courses](intro_app.png)`.
 
 ---
 
