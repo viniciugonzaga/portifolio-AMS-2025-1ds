@@ -16,8 +16,7 @@ Este projeto foi desenvolvido como um exercício prático do curso **Noções B�
 ## 🖼️ Preview do Aplicativo
 
 Abaixo está uma captura de tela da compilação bem-sucedida do aplicativo, mostrando a grade de temas funcionando no dispositivo.
-
-[Screenshot do App Courses](intro_app.png)`.
+![Screenshot do App Courses](intro_app.png)
 
 ---
 
