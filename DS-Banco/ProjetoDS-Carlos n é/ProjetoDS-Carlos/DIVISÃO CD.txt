@@ -1,0 +1,89 @@
+Divisão do que está no CD (EM ORDEM ALFABÉTICA):
+
+"1989" "Taylor Swift" "R$70,90"
+"After Hours" The Weeknd" "R$40,20"
+"A Gente Tem Que Ser Feliz" "Nando Reis" R$40,00"
+"A Night at the Opera" "Queen" "R$79,90"
+"Aventura "Aventura" "R$25,90"
+"Born This Way" "Lady Gaga" "R$39,99"
+"Divide" "Ed Sheeran" "R$49,90"
+"Emails I Can't Send" "Sabrina Carpenter" "R$24,20"
+"Fearless (Taylor's Version) "Taylor Swift" "R$35,00"
+"Future Nostalgia" "Dua Lipa "R$55,90"
+"K-12" "Melanie Martinez" "R$50,00"
+"Legends Never Die" "Juice WRLD" "R$34,50"
+"Midnights" "Taylor Swift" "R$53,15"
+"Mayhem (CD Standard)" "Lady Gaga" "R$100,00"
+"No.1" "Blackpink" "R$35,00"
+"Planet Her" "Doja Cat" "R$35,00"
+"Red (Taylor's Version)" "Taylor Swift" "R$35,00"
+"Rumours" "Fleetwood Mac" "R$39,99"
+"Samba de Raiz" "Zeca Pagodinho" "R$29,90"
+"S.O.S" "SZA" "R$49,90"
+"The Dark Side of the Moon" "Pink Floyd" "R$35,00"
+"The Life of Pablo" "Kanye West" "R$35,00
+"Unorthodox Junkebox" "Bruno Mars" "R$120,00"
+"Viva la Vida" "Coldplay" "R$50,00"
+
+POP:
+
+"1989" "Taylor Swift" "R$70,90"
+"After Hours" "The Weeknd" "R$40,20"
+"Born This Way" "Lady Gaga" "R$39,99"
+"Divide" "Ed Sheeran" "R$49,90"
+"Fearless (Taylor's Version)" "Taylor Swift" "R$35,00"
+"Future Nostalgia" "Dua Lipa" "R$55,90"
+"K-12" "Melanie Martinez" "R$50,00"
+"Midnights" "Taylor Swift" "R$53,15"
+"Mayhem (CD Standard)" "Lady Gaga" "R$100,00"
+"Planet Her" "Doja Cat" "R$35,00"
+"Red (Taylor's Version)" "Taylor Swift" "R$35,00"
+"S.O.S" "SZA" "R$49,90"
+"Unorthodox Junkebox" "Bruno Mars" "R$120,00"
+"Viva la Vida" "Coldplay" "R$50,00"
+
+SERTANEJO:
+
+"Samba de Raiz" "Zeca Pagodinho" "R$29,90"
+"A Gente Tem Que Ser Feliz" "Nando Reis" "R$40,00"
+
+ELETRÔNICA:
+
+"No.1" "Blackpink" "R$35,00"
+
+RAP:
+
+"Legends Never Die" "Juice WRLD" "R$34,50"
+"The Life of Pablo" "Kanye West" "R$35,00"
+
+TRAP:
+
+"Planet Her" "Doja Cat" "R$35,00"
+
+KPOP:
+
+"No.1" "Blackpink" "R$35,00"
+
+ROCK:
+
+"A Night at the Opera" "Queen" "R$79,90"
+"Rumours" "Fleetwood Mac" "R$39,99"
+"The Dark Side of the Moon" "Pink Floyd" "R$35,00"
+
+MPB:
+
+"A Gente Tem Que Ser Feliz" "Nando Reis" "R$40,00"
+
+FUNK:
+
+"The Life of Pablo" "Kanye West" "R$35,00"
+
+SAMBA:
+
+"Samba de Raiz" "Zeca Pagodinho" "R$29,90"
+
+CLÁSSICA:
+
+"A Night at the Opera" "Queen" "R$79,90"
+
+

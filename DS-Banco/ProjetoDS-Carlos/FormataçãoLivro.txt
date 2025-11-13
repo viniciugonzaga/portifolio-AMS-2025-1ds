@@ -1,0 +1,20 @@
+Livro Formatação:
+
+
+ (Imagem)
+Nome
+Autor
+Preço
+(comprar)
+
+
+
+Menu_Do_Livro
+
+   (Imagem)   -----Nome
+ (Atributo 1) -----Gênero
+ (Atributo 2) -----Descrição
+ (Atributo 3) -----Estoque 
+             
+         (Botão de unidade - preço)
+       (Adicionar ao Carrinho - Preço)

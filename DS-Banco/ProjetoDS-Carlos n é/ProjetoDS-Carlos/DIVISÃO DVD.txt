@@ -1,0 +1,80 @@
+Divisão do que está no DVD (EM ORDEM ALFABÉTICA):
+
+"A Culpa é das Estrelas" "Josh Boone" "R$29,90"
+"A Espera de um Milagre" "Frank Darabont" "R$39,90"
+"A Freira" "Corin Hardy" "R$34,90"
+"A Mentira" "Will Gluck" "R$39,90"
+"Ainda Estou Aqui" "José Eduardo Belmonte" "R$34,90"
+"A Teoria de Tudo" "James Marsh" "R$39,90"
+"Batman: O Cavaleiro das Trevas" "Christopher Nolan" "R$39,90"
+"Blade Runner 2049" "Denis Villeneuve" "R$59,90"
+"Cisne Negro" "Darren Aronofsky" "R$49,90"
+"Coco" "Lee Unkrich, Adrian Molina" "R$49,90"
+"Divertida Mente" "Pete Docter" "R$39,90"
+"E Se Fosse Verdade?" "Mark Waters" "R$29,90"
+"Hereditary: O Herdeiro" "Ari Aster" "R$39,90"
+"Interestelar" "Christopher Nolan" "R$59,90"
+"It: A Coisa" "Andy Muschietti" "R$49,90"
+"John Wick" "Chad Stahelski" "R$39,90"
+"Mad Max: Fury Road" "George Miller" "R$49,90"
+"O Casamento do Meu Melhor Amigo" "P.J. Hogan" "R$29,90"
+"O Curioso Caso de Benjamin Button" "David Fincher" "R$49,90"
+"O Diário de Bridget Jones" "Sharon Maguire" "R$29,90"
+"O Iluminado" "Stanley Kubrick" "R$39,90"
+"O Lado Bom da Vida" "David O. Russell" "R$39,90"
+"Orgulho e Preconceito" "Joe Wright" "R$39,90"
+"Se Beber, Não Case!" "Todd Phillips" "R$39,90"
+"Vingadores: Ultimato" "Anthony Russo, Joe Russo" "R$69,90"
+
+AÇÃO:
+
+"Mad Max: Fury Road" "George Miller" "R$49,90"
+"John Wick" "Chad Stahelski" "R$39,90"
+"Vingadores: Ultimato" "Anthony Russo, Joe Russo" "R$69,90"
+"Batman: O Cavaleiro das Trevas" "Christopher Nolan" "R$39,90"
+
+ANIMAÇÃO:
+
+
+"Coco" "Lee Unkrich, Adrian Molina" "R$49,90"
+"Divertida Mente" "Pete Docter" "R$39,90"
+"O Rei Leão" "Jon Favreau" "R$49,90"
+
+DRAMA:
+
+"Ainda Estou Aqui" "José Eduardo Belmonte" "R$34,90"
+"A Teoria de Tudo" "James Marsh" "R$39,90"
+"O Curioso Caso de Benjamin Button" "David Fincher" "R$49,90"
+"A Espera de um Milagre" "Frank Darabont" "R$39,90"
+"O Lado Bom da Vida" "David O. Russell" "R$39,90"
+
+FICÇÃO CIENTÍFICA:
+
+"Blade Runner 2049" "Denis Villeneuve" "R$59,90"
+"Interestelar" "Christopher Nolan" "R$59,90"
+"Vingadores: Ultimato" "Anthony Russo, Joe Russo" "R$69,90"
+
+COMÉDIA:
+
+"A Mentira" "Will Gluck" "R$39,90"
+"O Diário de Bridget Jones" "Sharon Maguire" "R$29,90"
+"Se Beber, Não Case!" "Todd Phillips" "R$39,90"
+"O Casamento do Meu Melhor Amigo" "P.J. Hogan" "R$29,90"
+
+TERROR:
+
+"It: A Coisa" "Andy Muschietti" "R$49,90"
+"O Iluminado" "Stanley Kubrick" "R$39,90"
+"A Freira" "Corin Hardy" "R$34,90"
+"Hereditary: O Herdeiro" "Ari Aster" "R$39,90"
+
+ROMANCE:
+
+"A Culpa é das Estrelas" "Josh Boone" "R$29,90"
+"E Se Fosse Verdade?" "Mark Waters" "R$29,90"
+"O Lado Bom da Vida" "David O. Russell" "R$39,90"
+"Orgulho e Preconceito" "Joe Wright" "R$39,90"
+
+TERROR PSICOLÓGICO:
+
+"Cisne Negro" "Darren Aronofsky" "R$49,90"

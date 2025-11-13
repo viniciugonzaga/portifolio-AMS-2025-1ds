@@ -1,0 +1,118 @@
+Divisão do que está no Home:
+
+"A Biblioteca da Meia-Noite" "Matt Haig" "R$69,90"
+"Future Nostalgia CD" "Dua Lipa" "R$55,90"
+"Ainda Estou Aqui" "Walter Salles" "14,99"
+"Café com Deus Pai" "Junior Rostirola" "R$53,15"
+"Thriller" "Michael Jackson" "R$210,00"
+"Mayhem (CD Standard)" "Lady Gaga" "R$100,00"
+"Vingadores Ultimato" "Anthony Russo" "R$9,99" 
+"Dona Flor e seus 2 Maridos" "Jorge Amado" "R$15,00"
+"Assim que Acaba Assim que Começa" "Colleen Hoover" "R$150,00"
+"A Hipótese do Amor" "Ali Hazelwood" "R$39,99"
+"Portals Deluxe" "Melanie Martinez" "R$85,90"
+"Trilogia Príncipe Cruel" "Holly Black" "R$120,00"
+
+Divisão do que está no Livros (EM ORDEM ALFABÉTICA):
+
+"A Biblioteca da Meia-Noite" "Matt Haig" "R$69,90"
+"A Empregada" "Freida McFadden" "R$40,20"
+"A Garota do Lago" "Charlie Donlea" "R$25,90"
+"A Hipótese do Amor" "Ali Hazelwood" "R$39,99"
+"A Noiva" "Ali Hazelwood" "R$49,90"
+"A Revolução dos Bichos" "George Orwell" "R$24,20"
+"A Sutil Arte de Ligar o F*da-se" "Mark Manson" "R$35,00"
+"Assim que Acaba Assim que Começa" "Colleen Hoover" "R$150,00"
+"Bíblia Sagrada" "Diversos Autores" "R$50,00"
+"Bobbie Goods - Para PIntar" "Bobbie Goods" "R$34,50"
+"Café com Deus Pai" "Junior Rostirola" "R$53,15"
+"Capitães da Areia" "Jorge Amado" "R$53,15"
+"Coleção Box do Harry Potter" "J.K Rowling" "R$349,90"
+"Coleção Percy Jackson" "Rick Riordan" "R$200,00"
+"Dona Flor e seus 2 Maridos" "Jorge Amado" "R$15,00"
+"Espreitador - Ordem Paranormal" "Diversos Autores" "R$85,10"
+"Extraordinário" "R.J. Palacio" "R$41,90"
+"Homem de Giz" "C.J. Tudor" "R$39,90"
+"IT: A Coisa" "Stephen King" "R$80,00"
+"Jantar Secreto" "Raphael Montes" "R$50,90"
+"O Homem Mais Rico da Babilônia" "George S. Clason" "R$19,20"
+"O Massacre da Serra Elétrica" "Stefan Jaworzyn" "R$39,30"
+"O Pequeno Príncipe" "Antoine de Saint" "R$15,00" 
+"Trilogia Príncipe Cruel" "Holly Black" "R$120,00"
+
+Divisão de gêneros do Livro:
+
+ROMANCE:
+
+"Assim que Acaba Assim que Começa" "Colleen Hoover" "R$150,00"
+"Dona Flor e seus 2 Maridos" "Jorge Amado" "R$15,00"
+"Trilogia Príncipe Cruel" "Holly Black" "R$120,00"
+"A Hipótese do Amor" "Ali Hazelwood" "R$39,99"
+"A Noiva" "Ali Hazelwood" "R$49,90"
+
+SUSPENSE:
+
+"A Empregada" "Freida McFadden" "R$40,20"
+"A Garota do Lago" "Charlie Donlea" "R$25,90"
+"Homem de Giz" "C.J. Tudor" "R$39,90"
+"IT: A Coisa" "Stephen King" "R$80,00"
+"Jantar Secreto" "Raphael Montes" "R$50,90"
+"Espreitador - Ordem Paranormal" "Diversos Autores" "R$85,10"
+
+AVENTURA:
+
+"Capitães da Areia" "Jorge Amado" "R$53,15"
+"Coleção Box do Harry Potter" "J.K Rowling" "R$349,90"
+"Coleção Percy Jackson" "Rick Riordan" "R$200,00"
+"Trilogia Príncipe Cruel" "Holly Black" "R$120,00"
+"O Pequeno Príncipe" "Antoine de Saint" "R$15,00" 
+
+RELIGIOSOS:
+
+"Bíblia Sagrada" "Diversos Autores" "R$50,00"
+"Café com Deus Pai" "Junior Rostirola" "R$53,15"
+
+TERROR:
+
+"A Empregada" "Freida McFadden" "R$40,20"
+"A Garota do Lago" "Charlie Donlea" "R$25,90"
+"Homem de Giz" "C.J. Tudor" "R$39,90"
+"IT: A Coisa" "Stephen King" "R$80,00"
+"Jantar Secreto" "Raphael Montes" "R$50,90"
+
+DRAMA:
+
+"Capitães da Areia" "Jorge Amado" "R$53,15"
+"Extraordinário" "R.J. Palacio" "R$41,90"
+"Dona Flor e seus 2 Maridos" "Jorge Amado" "R$15,00"
+"A Revolução dos Bichos" "George Orwell" "R$24,20"
+"A Biblioteca da Meia-Noite" "Matt Haig" "R$69,90"
+
+
+FICÇÃO:
+
+"A Biblioteca da Meia-Noite" "Matt Haig" "R$69,90"
+"A Revolução dos Bichos" "George Orwell" "R$24,20"
+"Coleção Box do Harry Potter" "J.K Rowling" "R$349,90"
+"Coleção Percy Jackson" "Rick Riordan" "R$200,00"
+"Espreitador - Ordem Paranormal" "Diversos Autores" "R$85,10"
+"Trilogia Príncipe Cruel" "Holly Black" "R$120,00"
+"IT: A Coisa" "Stephen King" "R$80,00"
+
+INFANTIS: 
+
+"O Pequeno Príncipe" "Antoine de Saint" "R$15,00" 
+"Bobbie Goods - Para PIntar" "Bobbie Goods" "R$34,50"
+
+FANTASIA:
+
+"Espreitador - Ordem Paranormal" "Diversos Autores" "R$85,10"
+"Coleção Box do Harry Potter" "J.K Rowling" "R$349,90"
+"Coleção Percy Jackson" "Rick Riordan" "R$200,00"
+"Trilogia Príncipe Cruel" "Holly Black" "R$120,00"
+
+AUTO AJUDA:
+
+"A Sutil Arte de Ligar o F*da-se" "Mark Manson" "R$35,00"
+"Café com Deus Pai" "Junior Rostirola" "R$53,15"
+"O Homem Mais Rico da Babilônia" "George S. Clason" "R$19,20"
